@@ -7,8 +7,10 @@
 
 
 .head_text {
-  @apply mt-5 text-5xl font-light font-inter leading-[1.15] text-black sm:text-6xl;
+  @apply mt-5 text-5xl font-light font-inter leading-[1.15] text-black sm:text-6xl py-2;
 }
+
+
 .head_container {
   @apply  flex-col w-8/12 text-left px-14; 
 }

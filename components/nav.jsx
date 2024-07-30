@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect } from 'react'
-import { signIn, signOut, useSession, getProviders } from 'next-auth/react'
+// import { signIn, signOut, useSession, getProviders } from 'next-auth/react'
 
 const Nav = () => {
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(false)
@@ -30,10 +30,10 @@ const Nav = () => {
         <Link href="/" className="gap-2 flex-center px-5">
           <h1 className="text-xl font-thin font-roboto hover:text-white">Home</h1>
         </Link>
-        <Link href="/about" className="gap-2 flex-center px-5">
+        <Link href="/comingsoon" className="gap-2 flex-center px-5">
           <h1 className="text-xl font-thin font-roboto hover:text-white">About</h1>
         </Link>
-        <Link href="/pricing" className="gap-2 flex-center px-5">
+        <Link href="/comingsoon" className="gap-2 flex-center px-5">
           <h1 className="text-xl font-thin font-roboto hover:text-white">Pricing</h1>
         </Link>
       </div>
@@ -45,7 +45,7 @@ const Nav = () => {
             <button onClick={() => setIsUserLoggedIn(false)} className="flex gap-2 flex-center black_btn px-3">
               <p>Sign Out</p>
             </button>
-            <Link href="/profile" className="flex gap-2 flex-center px-2">
+            <Link href="/comingsoon" className="flex gap-2 flex-center px-2">
               <p>natedoesthings</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16">
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
