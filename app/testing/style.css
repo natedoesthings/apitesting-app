@@ -1,0 +1,269 @@
+.testing {
+  background-color: #ddd5ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.testing .overlap-group-wrapper {
+  background-color: #ddd5ff;
+  height: 832px;
+  width: 1280px;
+}
+
+.testing .overlap-group {
+  background-color: #c9c3f7;
+  border-radius: 10px;
+  height: 625px;
+  position: absolute;
+  display: flex;
+  left: 65px;
+  top: 115px;
+  @apply w-11/12;
+}
+
+.testing .recent-group {
+  background-color: #ddd5ff;
+  border-radius: 15px;
+  height: 580px;
+  left: 21px;
+  position: absolute;
+  top: 24px;
+  width: 282px;
+}
+
+.testing .recent-header {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  width: 159px;
+  @apply font-roboto;
+}
+
+.testing .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 48px;
+  width: 282px;
+}
+
+.testing .url-placement {
+  height: 50px;
+  left: 332px;
+  position: absolute;
+  top: 23px;
+  width: 704px;
+}
+
+.testing .rectangle {
+  background-color: #ffffff;
+  border-radius: 10px 0px 0px 10px;
+  height: 49px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 820px;
+}
+
+.testing .img {
+  height: 50px;
+  left: 99px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+
+}
+
+.testing .url-form {
+  display: flex;
+  align-items: center; /* Vertically center the input and button */
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: rgb(84, 48, 170); /* Example color */
+  border-color: white;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  left: 820px;
+  position: relative;
+  width: 120px;
+}
+
+.drop-down {
+  background-color: rgb(52, 34, 128);
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  height: 50px;
+  left: 820px;
+  position: relative;
+  width: 40px;
+
+}
+
+.drop-down:hover {
+  background-color: rgb(62, 41, 156);
+}
+
+.send-button:hover {
+  background-color: rgb(95, 54, 193); /* Example hover color */
+}
+
+.testing .url-input {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 100;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 780px;
+  @apply font-roboto;
+}
+
+.testing .overlap-2 {
+  background-color: #000000;
+  border-radius: 10px;
+  height: 50px;
+  left: 1170px;
+  position: absolute;
+  top: 22px;
+  width: 159px;
+}
+
+.testing .line-2 {
+  height: 50px;
+  left: 124px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.testing .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.testing .body-group {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 450px;
+  left: 332px;
+  position: absolute;
+  top: 95px;
+  width: 980px;
+}
+
+.inside-body {
+  border-radius: 10px;
+  border: 1px solid #7f7f7f;
+  height: 420px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 950px;
+}
+
+.testing .text-wrapper-4 {
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  height: 34px;
+  left: 336px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 580px;
+  width: 200px;
+}
+
+.testing .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 52px;
+  left: 830px;
+  position: absolute;
+  top: 565px;
+  width: 337px;
+}
+
+.testing .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+  width: 302px;
+}
+
+.testing .overlap-3 {
+  background-color: #252133;
+  border-radius: 15px;
+  height: 52px;
+  left: 1180px;
+  position: absolute;
+  top: 565px;
+  width: 130px;
+}
+
+.save-button {
+  background-color: #252133;
+  border-radius: 15px;
+  height: 52px;
+  left: 355px;
+  position: relative;
+  width: 130px;
+}
+
+.testing .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 25px;
+  text-align: left;
+  font-weight: 600;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 86px;
+}
+
+
+.request-button {
+  text-align: left;
+  text-indent: 5px;
+  width: 250px;
+  background-color: white;
+  height: 30px;
+  border-radius: 5px;
+}
